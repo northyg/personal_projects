@@ -12,5 +12,5 @@ while(True):
   
   stringTitle = stringTitle.replace('-', " ").title()
   stringTitle = stringTitle.replace('#', " - ").title()
-  print ('[' + stringTitle + ']' + '(' + urlString + ')')
-  pyperclip.copy('[' + stringTitle + ']' + '(' + urlString + ')') # puts new string in clipboard
+  print ('[**' + stringTitle + '**]' + '(' + urlString + ')')
+  pyperclip.copy('[**' + stringTitle + '**]' + '(' + urlString + ')') # puts new string in clipboard
